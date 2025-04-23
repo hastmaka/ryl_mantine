@@ -1,0 +1,7 @@
+.s-container{
+  padding-inline: 1rem;
+
+  @include smaller-than($mantine-breakpoint-sm){
+    padding-inline: .5rem;
+  }
+}

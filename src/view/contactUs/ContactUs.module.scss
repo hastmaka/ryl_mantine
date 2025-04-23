@@ -1,0 +1,9 @@
+.text{
+  text-align: justify;
+  column-count: 3;
+  column-gap: 2rem;
+
+  @include smaller-than($mantine-breakpoint-sm){
+    column-count: 1;
+  }
+}
